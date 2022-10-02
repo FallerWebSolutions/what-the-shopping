@@ -33,6 +33,8 @@
     "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.38.1",
+    "@typescript-eslint/parser": "^5.38.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typescript": "^4.8.3"
