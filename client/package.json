@@ -6,7 +6,9 @@
   "scripts": {
     "webpack": "webpack",
     "start": "webpack server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+  "lint": "eslint --fix \"./src/**/*.{js,jsx,ts,tsx,json}\"",
+  "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
   },
   "keywords": [],
   "author": "",
@@ -35,6 +37,9 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.38.1",
     "@typescript-eslint/parser": "^5.38.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typescript": "^4.8.3"
